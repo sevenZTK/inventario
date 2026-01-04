@@ -2,7 +2,7 @@ from db import get_connection
 
 def main():
     conn = get_connection()
-    print("conectado a bd")
+    print("VALIDACION DE RAMAS")
     conn.close()
 
 if __name__ == "__main__":
