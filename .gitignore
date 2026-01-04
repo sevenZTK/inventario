@@ -1,4 +1,11 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
 .env
 *.db
-__pycache__/
 node_modules/
