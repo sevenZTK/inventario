@@ -1,9 +1,10 @@
-from db import get_connection
+from flask import Flask, render_template
 
-def main():
-    conn = get_connection()
-    print("conectado a bd")
-    conn.close()
+app =  Flask(__name__)
+
+@app.route("/")
+def home():
+    return render_template("index.html")
 
 if __name__ == "__main__":
-    main()
+    app.run(debug=True)
