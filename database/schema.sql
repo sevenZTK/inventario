@@ -7,4 +7,4 @@ CREATE TABLE operators (
     nombre_completo VARCHAR(100) NOT NULL,
     telefono VARCHAR(100) NOT NULL,
     correo VARCHAR(100) NOT NULL
-)
+);
